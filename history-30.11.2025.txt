@@ -1,0 +1,1000 @@
+  811  curl -k  https://10.88.0.10:8080
+  812  curl -k  https://10.88.0.10:443
+  813  curl -k  https://10.88.0.10
+  814  curl -k  https://10.88.0.10:8080
+  815  lsof -l :8080
+  816  lsof -p :8080
+  817  history|grep lsof
+  818  lsof -i :8080
+  819  lsof -i :80
+  820  sudo apt-get install lynx
+  821  lynx
+  822  ls
+  823  cd MISW4103-Pruebas-automatizadas/
+  824  ls
+  825  cd 202512-proyecto-equipo-12/
+  826  ls
+  827  git pull
+  828  bit branch -a
+  829  git branch -a
+  830  git checkout main
+  831  git pull
+  832  git log
+  833  git checkout develop
+  834  git pull
+  835  git log
+  836  git checkout main
+  837  git branch -a
+  838  git checkout -b feature/entrega7-dfu
+  839  git push --set-upstream origin feature/entrega7-dfu
+  840  code .
+  841  git reset --hard
+  842  ls
+  843  cd e2e/misw-4103-kraken/
+  844  npm install
+  845  podman container ls -a
+  846  sudo docker container ls -a
+  847  CD --
+  848  cd --
+  849  cd -
+  850  cd ..
+  851  git reset --hard
+  852  cd ..
+  853  cd --
+  854  md5sum /mnt/c/Users/45111522/Desktop/03.Mar/26.03.2025/LOCAL-SerializedSystemIni.dat 
+  855  md5sum /mnt/c/Oracle/Middleware/Oracle_Home/user_projects/domains/local_domain/security/SerializedSystemIni.dat 
+  856  python3 --version
+  857  sudo apt-get install python
+  858  sudo apt-get update
+  859  sudo apt-get upgrade
+  860  pip install pdf2docx
+  861  ls
+  862  vim pdf2word.py
+  863  ls
+  864  cp /mnt/c/Users/45111522/Downloads/Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf .
+  865  sync
+  866  ls
+  867  python3 pdf2word.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado.docx
+  868  ls
+  869  vim pdf2word-ver2.py
+  870  python3 pdf2word-ver2.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado2.docx
+  871  pip install pdf2docx tqdm
+  872  python3 pdf2word-ver2.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado2.docx
+  873  vim pdf2word.py
+  874  ls
+  875  pip install PyPDF2
+  876  python3 pdf2word-ver2.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado2.docx
+  877  vim pdf2word-ver3.py
+  878  python3 pdf2word-ver3.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado3.docx
+  879  ls
+  880  mv procesado* /mnt/c/Users/45111522/Desktop/05.May/.
+  881  sync
+  882  sudo apt install tesseract-ocr
+  883  pip install pytesseract pdf2image pillow
+  884  rm pdf2word-ver3.py 
+  885  rm pdf2word-ver2.py 
+  886  vim pdf2word-ver2.py 
+  887  python3 pdf2word-ver2.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado2.docx
+  888  vim pdf2word-ver2.py 
+  889  sudo apt update
+  890  sudo apt install poppler-utils
+  891  pdftoppm -v
+  892  python3 pdf2word-ver2.py Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf procesado2.docx
+  893  vim pdf2word-ver2.py 
+  894  ls
+  895  mv Primer\ requerimiento\ EMC\ periodo\ abril\ 2025.pdf input-file.pdf
+  896  ls
+  897  python3 pdf2word-ver2.py input-file.pdf salida.docx
+  898  vim pdf2word-ver2.py 
+  899  vim pdf2word-ver3.py 
+  900  python3 pdf2word-ver3.py 
+  901  vim pdf2word-ver3.py 
+  902  python3 pdf2word-ver3.py 
+  903  python3 pdf2word-ver3.py -h
+  904  ls
+  905  vim pdf2word-ver3.py 
+  906  python3 pdf2word-ver3.py -h
+  907  vim pdf2word-ver3.py 
+  908  python3 pdf2word-ver3.py -h
+  909  vim pdf2word-ver3.py 
+  910  python3 pdf2word-ver3.py -h
+  911  vim pdf2word-ver3.py 
+  912  python3 pdf2word-ver3.py -h
+  913  vim pdf2word-ver3.py 
+  914  python3 pdf2word-ver3.py -h
+  915  vim pdf2word-ver3.py 
+  916  python3 pdf2word-ver3.py -h
+  917  vim pdf2word-ver3.py 
+  918  python3 pdf2word-ver3.py -h
+  919  vim pdf2word-ver3.py 
+  920  python3 pdf2word-ver3.py -h
+  921  python3 pdf2word-ver3.py input-file.pdf --split paginas_separadas
+  922  ls
+  923  cd paginas_separadas/
+  924  ls
+  925  cd ..
+  926  mv paginas_separadas/ /mnt/c/Users/45111522/Desktop/05.May/.
+  927  sync
+  928  vim pdf2word-ver3.py 
+  929  vim pdfTextExtraction.py
+  930  python3 pdfTextExtraction.py 
+  931  pip install pytesseract pdf2image pillow
+  932  pip install pdfplumber
+  933  pip install PyPDF2
+  934  python3 pdfTextExtraction.py 
+  935  python3 pdf2word-ver3.py input-file.pdf --split paginas_separadas
+  936  python3 pdfTextExtraction.py
+  937  python3 pdfTextExtraction.py paginas_separadas/page_17.pdf
+  938  ls
+  939  vim pdfTextExtraction.py
+  940  python3 pdfTextExtraction.py paginas_separadas/page_17.pdf --method pypdf2
+  941  python3 pdfTextExtraction.py paginas_separadas/page_17.pdf --method orc
+  942  python3 pdfTextExtraction.py paginas_separadas/page_17.pdf --method ocr
+  943  python3 pdf2word-ver3.py -h
+  944  python3 pdfTextExtraction.py -h
+  945  cd paginas_separadas/
+  946  ls
+  947  cd ..
+  948  vim pdfTextExtraction.py
+  949  vim pdfMerge.py
+  950  python3 pdfMerge.py 
+  951  python3 pdfMerge.py -h
+  952  python3 pdfMerge.py /mnt/c/Users/45111522/Desktop/05.May/paginas_separadas/ /mnt/c/Users/45111522/Desktop/05.May/merged.pdf
+  953  python3 pdfMerge.py /mnt/c/Users/45111522/Desktop/05.May/paginas_separadas/ merged.pdf
+  954  python3 pdf2word-ver3.py -h
+  955  python3 pdf2word-ver3.py merged.pdf --output conversion.docx
+  956  ls
+  957  rm -rf page_*
+  958  python3 pdf2word.py merged.pdf 
+  959  ls
+  960  python3 pdf2word.py merged.pdf salida.docx
+  961  ls
+  962  mv salida.docx /mnt/c/Users/45111522/Desktop/05.May/.
+  963  vim pdf2word.py 
+  964  wget ftp://priede.bf.lu.lv/pub/Tiimeklis/vpn/forti/FortiClientVPN-7.2.0.690.exe
+  965  lynx https://www.searchftps.net/
+  966  cp /mnt/c/Users/45111522/Desktop/06.Jun/06.06.2025/access.log .
+  967  sync
+  968  vim access.log 
+  969  grep '\d{1,2,3}' access.log 
+  970  awk '{ match($0, /^([0-9]{1,3}(\.[0-9]{1,3}){3}) .*"[^ ]+ ([^ ]+) HTTP/, arr); if(arr[1] && arr[3]) print arr[1], arr[3] }' access.log
+  971  vim access.log 
+  972  ping gnu.org
+  973  cd /mnt/c/sft_dev/python/
+  974  ls
+  975  cd --
+  976  ls
+  977  vim trimpdf.py
+  978  python3 trimpdf.py 
+  979  python3 trimpdf.py /mnt/c/Users/45111522/Downloads/contrato\ de\ arrendamiento\ Daniel\ F.\ Urrego.pdf 
+  980  python3 trimpdf.py /mnt/c/Users/45111522/Downloads/contrato\ de\ arrendamiento\ Daniel\ F.\ Urrego.pdf /mnt/c/Users/45111522/Downloads/contrato_dfu-Atabanza.pdf --trim-last 1
+  981  ls
+  982  vim TaskCreator.py 
+  983  cd /mnt/c/sft_dev/python/
+  984  ls
+  985  vim host-slayer/
+  986  ls host-slayer/
+  987  cd host-loader/
+  988  ls
+  989  vim HostRoboto.py 
+  990  tracert 100.123.27.221
+  991  cd ..
+  992  cd java/wsPcml_FulFillOper/
+  993  ls
+  994  cd wsPcml/
+  995  ls
+  996  find . *.java -exec grep "getUnidadesResponse" {} \+
+  997  find . -type f *.java -exec grep "getUnidadesResponse" {} \+
+  998  find . -type f - name *.java -exec grep "getUnidadesResponse" {} \+
+  999  history |grep find
+ 1000  find . -type f -exec grep "getUnidadesResponse" {} \+
+ 1001  find . -type f -exec grep -ln "getUnidadesResponse" {} \+
+ 1002  md5sum /mnt/c/Users/45111522/Downloads/wsPcml-ear-1.0-SNAPSHOT.ear 
+ 1003  cd -
+ 1004  cd --
+ 1005  ls
+ 1006  vim TaskCreator.py 
+ 1007  cd -
+ 1008  cd /mnt/c/sft_dev/python/
+ 1009  ls
+ 1010  vim main.py 
+ 1011  vim host-loader/HostRoboto.py 
+ 1012  podman
+ 1013  podman status
+ 1014  curl http://100.126.20.150:8080/SaraWS/webresources/WSsara
+ 1015  wget https://100.123.27.221/SaraWS/webresources/WSsara/
+ 1016  wget https://100.123.27.221/SaraWS/webresources/WSsara/ --no-check-certificate
+ 1017  curl https://100.123.27.221/SaraWS/webresources/WSsara/
+ 1018  curl https://100.123.27.221/SaraWS/webresources/WSsara/ --insecureopenssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
+ 1019  cd ..
+ 1020  cd --
+ 1021  cd -
+ 1022  openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout wssara-selfsigned.key -out sara-selfsigned.crt
+ 1023  curl https://100.123.27.221/SaraWS/webresources/WSsara/
+ 1024  curl https://100.123.27.221/SaraWS/webresources/WSsara/ --insecure
+ 1025  wget https://100.123.27.221/SaraWS/webresources/WSsara/ --no-check-certificate
+ 1026  curl -v https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS  --cacert sara-selfsigned.crt 
+ 1027  wget curl -v https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS?wsdl
+ 1028  wget https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS?wsdl
+ 1029  wget https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS
+ 1030  wget https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS --no-check-certificate
+ 1031  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS
+ 1032  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS --cacert sara-selfsigned.crt 
+ 1033  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS --cacert estadoCoordenadas 
+ 1034  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS --cacert estadoCoordenadas --cacert sara-selfsigned.crt 
+ 1035  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/listaTecnologiasWS --cacert ara-selfsigned.crt 
+ 1036  curl -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/estadoCoordenadas --cacert sara-selfsigned.crt 
+ 1037  curl -o /dev/null -s -w "Time: %{time_total}s\n" -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/estadoCoordenadas --cacert sara-selfsigned.crt 
+ 1038  curl -w "Time: %{time_total}s\n" -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/estadoCoordenadas --cacert sara-selfsigned.crt 
+ 1039  curl -w "\
+ 1040  DNS Lookup: %{time_namelookup}s\n\
+ 1041  Connect: %{time_connect}s\n\
+ 1042  Start Transfer: %{time_starttransfer}s\n\
+ 1043  Total Time: %{time_total}s\n" -X POST -H "Content-Type: application/json" -d '{"usuario":"ICM9244A","clave":"12345","latitud":6.15282,"longitud":-75.53998}' https://100.123.27.221/SaraWS/webresources/WSsara/estadoCoordenadas --cacert sara-selfsigned.crt 
+ 1044  ls
+ 1045  cd /mnt/c/sft_dev/python/host-loader/
+ 1046  ls
+ 1047  vim TaskCreatorLib.py 
+ 1048  python3 HostRoboto.py 
+ 1049  vim HostRoboto.py 
+ 1050  cls
+ 1051  clear
+ 1052  python3 HostRoboto.py 
+ 1053  sudo apt-get update
+ 1054  sudo apt-get upgrade
+ 1055  ping 34.173.252.97
+ 1056  history|grep nmap
+ 1057  nmap -p 3128 T4 -A -v 34.173.252.97
+ 1058  curl -x http://34.173.252.97:3128 http://gnu.org
+ 1059  curl -x https://34.173.252.97:3128 http://gnu.org
+ 1060  curl -x http://34.173.252.97:3128 http://gnu.org
+ 1061  LS
+ 1062  ls
+ 1063  vim HostRoboto.py 
+ 1064  python HostRoboto.py --help
+ 1065  python3 HostRoboto.py --help
+ 1066  python3 HostRoboto.py --headless
+ 1067  ls
+ 1068  cd ..
+ 1069  ls
+ 1070  cat test_crawler.py 
+ 1071  python3 test_crawler.py 
+ 1072  cat test_crawler.py 
+ 1073  ls
+ 1074  cat web_crawler
+ 1075  cat web_crawler.py 
+ 1076  ls
+ 1077  cat main
+ 1078  cat main.py 
+ 1079  ls
+ 1080  cd host-slayer/
+ 1081  ls
+ 1082  cd ../host-loader/
+ 1083  ls
+ 1084  code .
+ 1085  python3 HostRoboto.py 
+ 1086  vim webdriver-test.py
+ 1087  python3 webdriver-test.py 
+ 1088  sudo apt update
+ 1089  sudo apt install chromium-chromedriver
+ 1090  python3 webdriver-test.py 
+ 1091  python3 HostRoboto.py 
+ 1092  ls
+ 1093  cd /mnt/c/sft_dev/python/host-loader/
+ 1094  ls
+ 1095  vim HostRoboto.py 
+ 1096  cd ..
+ 1097  cls
+ 1098  clear
+ 1099  cd --
+ 1100  curl -X https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1101  curl -X "https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml"
+ 1102  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1103  history|grep curñ
+ 1104  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1105  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml -v
+ 1106  wget https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1107  tracert clarocomandos.claro.com.co
+ 1108  traceroute clarocomandos.claro.com.co
+ 1109  trace clarocomandos.claro.com.co
+ 1110  sudo apt update
+ 1111  sudo apt install traceroute
+ 1112  trace clarocomandos.claro.com.co
+ 1113  tracert clarocomandos.claro.com.co
+ 1114  traceroute clarocomandos.claro.com.co
+ 1115  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml -v
+ 1116  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1117  curl http://172.24.208.55:8100/Commands-web/pages/OFSCServletInit.xhtml
+ 1118  curl http://172.24.208.55:8100/CommandsRest/ws/InventoriesByAccount
+ 1119  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml -v
+ 1120  curl https://clarocomandos.claro.com.co/Commands-web/pages/OFSCServletInit.xhtml
+ 1121  ping test-portal.supersociedades.gov.co
+ 1122  curl https://test-portal.supersociedades.gov.co/web/guest/preguntas-y-respuestas-frecuentes
+ 1123  curl http://test-portal.supersociedades.gov.co/web/guest/preguntas-y-respuestas-frecuentes
+ 1124  curl http://test-portal.supersociedades.gov.co
+ 1125  curl http://192.168.123.33
+ 1126  ping test-portal.supersociedades.gov.co
+ 1127  exit
+ 1128  ls
+ 1129  cp standalone.xml standalone.04.08.2025-back.xml 
+ 1130  ls
+ 1131  patch --dry-run -p0 < wildfly-tunning-standalone.xml.patch 
+ 1132  dos2unix wildfly-tunning-standalone.xml.patch 
+ 1133  patch --dry-run -p0 < wildfly-tunning-standalone.xml.patch 
+ 1134  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1135  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch 
+ 1136  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1137  sed -i 's/[[:space:]]\+$//' wildfly-tunning-standalone.xml-v2.patch
+ 1138  head -20 wildfly-tunning-standalone.xml-v2.patch
+ 1139  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1140  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1141  cp wildfly-tunning-standalone.xml-v2.patch wildfly-tunning-standalone.xml.patch 
+ 1142  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1143  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1144  cp wildfly-tunning-standalone.xml.patch wildfly-tunning-standalone.xml-v2.patch 
+ 1145  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1146  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1147  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1148  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1149  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1150  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1151  cp wildfly-tunning-standalone.xml.patch wildfly-tunning-standalone.xml-v2.patch 
+ 1152  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1153  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1154  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1155  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1156  cp wildfly-tunning-standalone.xml.patch wildfly-tunning-standalone.xml-v2.patch 
+ 1157  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1158  dos2unix standalone.xml 
+ 1159  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1160  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1161  ls
+ 1162  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1163  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1164  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1165  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1166  ls
+ 1167  diff standalone.xml standalone.04.08.2025-back.xml 
+ 1168  patch --dry-run -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1169  patch -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1170  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1171  patch -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1172  vim wildfly-tunning-standalone.xml-v2.patch 
+ 1173  patch -p0 < wildfly-tunning-standalone.xml-v2.patch
+ 1174  cp standalone.04.08.2025-back.xml standalone.xml
+ 1175  sed -i '/<property name="org.apache.catalina.connector.USE_BODY_ENCODING_FOR_QUERY_STRING"/a\        <property name="org.jboss.as.logging.per-deployment" value="true"/>\n        <property name="org.jboss.as.logging.use-deployment-logging-config" value="true"/>' standalone.xml
+ 1176  sed -i 's|%K{level}%d{HH:mm:ss,SSS} %-5p \[%c\] (%t) %s%e%n|%K{level}%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n|' standalone.xml
+ 1177  sed -i 's|<worker name="default" io-threads="248"/>|<worker name="default" io-threads="32" task-max-threads="256"/>|' standalone.xml
+ 1178  sed -i 's|max-connections="200"|max-connections="2000"|' standalone.xml
+ 1179  sed -i '/<\/host>/i\                    <access-log pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="access" suffix=".log"/>' standalone.xml
+ 1180  diff -u standalone.xml.orig standalone.xml > wildfly-standalone-optimal.patch
+ 1181  vim wildfly-standalone-optimal.patch 
+ 1182  cd ..
+ 1183  cd 05.08.2025/
+ 1184  ls
+ 1185  cd liferay.2025-08-04/
+ 1186  ls
+ 1187  wc ../liferay.2025-08-05/liferay.2025-08-05.log -l
+ 1188  head liferay.2025-08-04.log -n17474 > liferay.2025-08-04-segment.log
+ 1189  ls
+ 1190  exit
+ 1191  find . -type f -exec grep -le "javax.persistence" {} \+
+ 1192  find . -type f -exec grep -le "EntityManagerFactory" {} \+
+ 1193  find . -type f -exec grep -le "createEntityManager" {} \+
+ 1194  exit
+ 1195  ls
+ 1196  md5sum wsPcml-ear-1.0-SNAPSHOT.ear 
+ 1197  md5sum 209514.zip 
+ 1198  md5sum 206686.zip 
+ 1199  cd ../05.08.2025/
+ 1200  dir
+ 1201  exit
+ 1202  clear
+ 1203  cd /mnt/c/sft_dev/python/
+ 1204  ls
+ 1205  cd host-loader/
+ 1206  ls
+ 1207  vum HostRoboto.py 
+ 1208  vim HostRoboto.py 
+ 1209  history|grep 
+ 1210  history|grep grep
+ 1211  find . -type f -exec grep -e "bYt"
+ 1212  find . -type f -exec grep -e "bYt" {} \+
+ 1213  find . -type f -exec grep -el "bYt" {} \+
+ 1214  history|grep grep
+ 1215  find . -type f -exec grep -le "bYt" {} \+
+ 1216  find . -type f -exec grep -le "gR3y$$" {} \+
+ 1217  find . -type f -exec grep -le "gR3y$" {} \+
+ 1218  ls
+ 1219  java SplitTest 
+ 1220  chmod 777 split-test.bash 
+ 1221  ls
+ 1222  ./split-test.bash 
+ 1223  which bash
+ 1224  cd --
+ 1225  ls
+ 1226  cd -
+ 1227  dos2unix split-test.bash 
+ 1228  ./split-test.bash 
+ 1229  vim split-test.bash 
+ 1230  ./split-test.bash 
+ 1231  vim split-test.bash 
+ 1232  ./split-test.bash 
+ 1233  vim split-test.bash 
+ 1234  ./split-test.bash 
+ 1235  which java
+ 1236  vim split-test.bash 
+ 1237  ./split-test.bash 
+ 1238  vim split-test.bash 
+ 1239  ./split-test.bash 
+ 1240  vim split-test.bash 
+ 1241  ./split-test.bash 
+ 1242  javac SplitTest.java 
+ 1243  ./split-test.bash 
+ 1244  echo $CONEXION_JAVA
+ 1245  echo
+ 1246  source split-test.bash 
+ 1247  vim split-test.bash 
+ 1248  ./split-test.bash 
+ 1249  vim split-test.bash 
+ 1250  vim vars.sh
+ 1251  source vars.sh 
+ 1252  echo $CONEXION_JAVA
+ 1253  vim split-test.bash 
+ 1254  source split-test.bash 
+ 1255  echo $CONEXION_JAVA
+ 1256  java TestString "$CICLO" "$PERIODO" "$RUTA_UTL" "$fecha_log" "$RUTA_CDT "$CONEXION_JAVA" "$HOME_PROG"
+ 1257  java TestString 
+ 1258  vim split-test.bash 
+ 1259  ./split-test.bash 
+ 1260  vim split-test.bash 
+ 1261  ./split-test.bash 
+ 1262  ls
+ 1263  ./split-test.bash 
+ 1264  vim split-test.bash 
+ 1265  ./split-test.bash 
+ 1266  vim split-test.bash 
+ 1267  ./split-test.bash 
+ 1268  vim split-test.bash 
+ 1269  javac SplitTest.java 
+ 1270  ./split-test.bash 
+ 1271  vim split-test.bash 
+ 1272  ./split-test.bash 
+ 1273  vim split-test.bash 
+ 1274  ./split-test.bash 
+ 1275  vim split-test.bash 
+ 1276  ./split-test.bash 
+ 1277  vim split-test.bash 
+ 1278  ./split-test.bash 
+ 1279  vim split-test.bash 
+ 1280  ./split-test.bash 
+ 1281  vim split-test.bash 
+ 1282  ./split-test.bash 
+ 1283  history|grep curl
+ 1284  curl https://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService
+ 1285  curl -X POST -H "Content-Type: application/json" -d '{"generarArchivos": {"identiCargue": 30473,"usuarioPara": "Ptotal","crmToConvert": "R"}}' https://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService --insecure
+ 1286  curl https://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService -v
+ 1287  curl https://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService --tlsv1.0 -v
+ 1288  curl http://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService -v
+ 1289  *   Trying 192.123.200.100:8082...
+ 1290  * Connected to operoperexteap.gtm.claro.com.co (192.123.200.100) port 8082 (#0)
+ 1291  * ALPN, offering h2
+ 1292  * ALPN, offering http/1.1
+ 1293  *  CAfile: /etc/ssl/certs/ca-certificates.crt
+ 1294  *  CApath: /etc/ssl/certs
+ 1295  * TLSv1.0 (OUT), TLS header, Certificate Status (22):
+ 1296  * TLSv1.3 (OUT), TLS handshake, Client hello (1):
+ 1297  * TLSv1.0 (OUT), TLS header, Unknown (21):
+ 1298  * TLSv1.3 (OUT), TLS alert, decode error (562):
+ 1299  * error:0A000126:SSL routines::unexpected eof while reading
+ 1300  * Closing connection 0
+ 1301  curl: (35) error:0A000126:SSL routines::unexpected eof while reading curl https://pepelguapo.com.co:8082/Manager/ManagerService -v
+ 1302  *   Trying 192.123.200.100:8082...
+ 1303  * Connected to operoperexteap.gtm.claro.com.co (192.123.200.100) port 8082 (#0)
+ 1304  * ALPN, offering h2
+ 1305  * ALPN, offering http/1.1
+ 1306  *  CAfile: /etc/ssl/certs/ca-certificates.crt
+ 1307  *  CApath: /etc/ssl/certs
+ 1308  * TLSv1.0 (OUT), TLS header, Certificate Status (22):
+ 1309  * TLSv1.3 (OUT), TLS handshake, Client hello (1):
+ 1310  * TLSv1.0 (OUT), TLS header, Unknown (21):
+ 1311  * TLSv1.3 (OUT), TLS alert, decode error (562):
+ 1312  * error:0A000126:SSL routines::unexpected eof while reading
+ 1313  * Closing connection 0
+ 1314  curl: (35) error:0A000126:SSL routines::unexpected eof while reading
+ 1315  curl http://operoperexteap.gtm.claro.com.co:8082/CRUDManager/CRUDManagerService -v
+ 1316  curl https://170.1.132.120:8060/RecaudoEnLinea/PSServicioRecaudo.svc?wsdl
+ 1317  exit
+ 1318  ls
+ 1319  pwd
+ 1320  cp /mnt/c/sft_dev/Prototipo1.zip .
+ 1321  ls
+ 1322  unzip Prototipo1.zip -d MISW4302-UX
+ 1323  ls
+ 1324  cd MISW4
+ 1325  cd MISW4302-UX/
+ 1326  ls
+ 1327  mv WakeUpVerification.png WakeUpVerification2.png 
+ 1328  ls -l
+ 1329  cd ..
+ 1330  mv MISW4302-UX/ /mnt/c/sft_dev/.
+ 1331  sync
+ 1332  cd /mnt/c/sft_dev/java/BankPayment_BillOper/
+ 1333  ls
+ 1334  find . -name "*.xml" -exec grep ln "WSUtils" {}\+
+ 1335  find . -name "*.xml" -exec grep -ln "WSUtils" {}\+
+ 1336  history|grep grep
+ 1337  find . -name "*.xml" -exec grep -le "WSUtils" {} \+
+ 1338  curl http://finequipos.comcel.com.co:9011/FinancingIntegrator/Core/Proxies/registrarPagoCredito_PS?wsdl
+ 1339  cd ..
+ 1340  cd --
+ 1341  cd -
+ 1342  cd ..
+ 1343  cd python/
+ 1344  ls
+ 1345  vim host-loader/HostRoboto.py 
+ 1346  cd ../java/WSPcrf_BillOper/
+ 1347  ls
+ 1348  ls Propiedades/
+ 1349  cd WSPcrf/
+ 1350  find . -iname "*.java" -exec grep -le "resetPropiedades" {} \ +
+ 1351  find . -iname "*.java" -exec grep -le "resetPropiedades" {} \+
+ 1352  vim WSPcrf-web/src/main/java/co/com/claro/WSPcrf/soap/WSPcrfSOAP.java 
+ 1353  md5sum 213611.zip 
+ 1354  md5sum 633237_20250821_213807.1.zip 
+ 1355  md5sum 213838.zip 
+ 1356  md5sum 633237_20250821_213781.1.zip 
+ 1357  md5sum 633237_20250828_215387.1.zip 
+ 1358  md5sum 215386.zip 
+ 1359  cd ../../../sft_dev/
+ 1360  cd java/HomologacionCloud-ear-1.3_20189814_C24585.ear.src/
+ 1361  ls
+ 1362  find . -type f -exec grep -ln "ERROR_SERVICIO_SEGMENTO"
+ 1363  find . -type f -exec grep -ln "ERROR_SERVICIO_SEGMENTO" \ {}+
+ 1364  find . -type f -exec grep -ln "ERROR_SERVICIO_SEGMENTO" {} \+
+ 1365  find . -type f -exec grep -Hn "ERROR_SERVICIO_SEGMENTO" {} \+
+ 1366  find . -type f -exec grep -Hn "ERROR_SERVICIO_SEGMENTO" --color {} \+
+ 1367  curl google.com
+ 1368  curl http://www.google.com
+ 1369  lynx
+ 1370  ping google.com
+ 1371  ls
+ 1372  cd MISW4103-Pruebas-automatizadas/
+ 1373  git status
+ 1374  ls
+ 1375  cd ..
+ 1376  cd MISW4202-ArquitecturasAgiles-Grupo018/
+ 1377  ls
+ 1378  git status
+ 1379  git branch -a
+ 1380  git checkout -b test
+ 1381  ls
+ 1382  vim README.md 
+ 1383  git add .
+ 1384  git commit -m"nothin"
+ 1385  git push --set-upstream origin test
+ 1386  ls
+ 1387  ls -a
+ 1388  vim .git/config 
+ 1389  cd /mnt/c/Users/45111522/Downloads/
+ 1390  ls
+ 1391  ls WS*
+ 1392  md5sum WSPcrf-ear-1.0.ear 
+ 1393  cd ../../../sft_dev/java/WSPcrf_BillOper/
+ 1394  git log
+ 1395  cd ..
+ 1396  cd wsPcml_FulFillOper/
+ 1397  gil branch -a
+ 1398  git branch -a
+ 1399  # from your project root directory
+ 1400  python3 -m http.server
+ 1401  md5sum wsUnificacionClaro.ear 
+ 1402  dir
+ 1403  mkdir MISW-4301-Desarrollo-Apps-en-la-Nube
+ 1404  ls
+ 1405  mv MISW-4301-Desarrollo-Apps-en-la-Nube/ MISW4301-Desarrollo-Apps-en-la-Nube/
+ 1406  ls
+ 1407  cd MISW4301-Desarrollo-Apps-en-la-Nube/
+ 1408  git clone git@github.com:MISW-4301-Desarrollo-Apps-en-la-Nube/s202514-proyecto-grupo21.git
+ 1409  ls
+ 1410  cd s202514-proyecto-grupo21/
+ 1411  git branch -a
+ 1412  git checkout origin/feature/api-gateway
+ 1413  git checkout main
+ 1414  git checkout -t origin/feature/api-gateway
+ 1415  cd ..
+ 1416  cd --
+ 1417  ls
+ 1418  ls -a
+ 1419  ls .ssh/
+ 1420  cp .ssh/* /mnt/c/Users/45111522/.ssh/.
+ 1421  sync
+ 1422  ls
+ 1423  cd --
+ 1424  ls
+ 1425  cd /mnt/c/sft_dev/python/
+ 1426  ls
+ 1427  cd host-loader/
+ 1428  ls
+ 1429  vim HostRoboto.py 
+ 1430  python3 HostRoboto.py 
+ 1431  cd ../../java/wsPcml_FulFillOper/
+ 1432  ls
+ 1433  cd wsPcml/
+ 1434  ls
+ 1435  cd wsPcml-ejb/
+ 1436  find . -type f -name "*.java" -exec grep -n "\"\#\"" {} \+
+ 1437  find . -type f -name "*.java" -exec grep -n "\"\#\"" {} --color \+
+ 1438  find . -type f -name "*.java" -exec grep -n "\"\#\"" --color {} \+
+ 1439  cd ..
+ 1440  cd Users/45111522/Downloads/
+ 1441  md5sum wsPcml-ear-1.0-SNAPSHOT\ \(2\).ear 
+ 1442  md5sum wsPcml-ear-1.0-SNAPSHOT.ear 
+ 1443  ping http://fulfilloperext.qtm.claro.com.co/
+ 1444  ping fulfilloperext.qtm.claro.com.co
+ 1445  curl http://serviceext.gtm.claro.com.co:8081/WSChangeMin_lfr-web/webresources/wschangeminrest/queryinsertrequestresolved
+ 1446  history |grep curl
+ 1447  curl -X GET -H "Content-Type: application/json" http://serviceext.gtm.claro.com.co:8081/WSChangeMin_lfr-web/webresources/wschangeminrest/queryinsertrequestresolved
+ 1448  curl -X GET -H "Content-Type: application/json" http://100.69.7.152:8002/WSChangeMin_lfr-web/webresources/wschangeminrest/queryinsertrequestresolved
+ 1449  cd --
+ 1450  ls
+ 1451  python3 pdfMerge.py 
+ 1452  vim pdfMerge.py 
+ 1453  cp /mnt/c/Users/45111522/Downloads/Prototipo\ 1.zip .
+ 1454  mv Prototipo\ 1.zip Prototipo1.zip
+ 1455  unzip --help
+ 1456  unzip Prototipo1.zip -d UX_entrega
+ 1457  ls
+ 1458  vim pdfMerge.py UX_entrega/ -o UX_entrega/consolidado.pdf
+ 1459  python3 pdfMerge.py UX_entrega/ -o UX_entrega/consolidado.pdf
+ 1460  python3 pdfMerge.py UX_entrega/ UX_entrega/consolidado.pdf
+ 1461  ls UX_entrega/
+ 1462  cp UX_entrega/consolidado.pdf /mnt/c/Users/45111522/Downloads/.
+ 1463  sync
+ 1464  pwd
+ 1465  cp /mnt/c/Users/45111522/Downloads/Prototipo\ 2.zip Prototipo2.zip
+ 1466  unzip Prototipo2.zip -d UX_entrega2/
+ 1467  python3 pdfMerge.py UX_entrega2/ UX_entrega2/consolidado.pdf
+ 1468  cp UX_entrega2/consolidado.pdf /mnt/c/Users/45111522/Downloads/consolidado2.pdf 
+ 1469  cp /mnt/c/Users/45111522/Downloads/Prototipo\ Web\ FInal.zip PrototipoFinalWeb.zip
+ 1470  ls
+ 1471  rm UX_entrega* -rf
+ 1472  unzip PrototipoFinalWeb.zip -d UX_entrega3
+ 1473  python3 pdfMerge.py UX_entrega3/ UX_entrega3/prototipoWebFinal.pdf
+ 1474  cp UX_entrega3/prototipoWebFinal.pdf /mnt/c/Users/45111522/Downloads/.
+ 1475  cd /mnt/c/Users/45111522/Downloads/
+ 1476  md5sum WSChangeMin_lfr-ear-1.0-SNAPSHOT.ear 
+ 1477  cd -
+ 1478  cp /mnt/c/Users/45111522/Downloads/Prototipo\ Movil\ Final.zip PrototipoMovilFinal.zip
+ 1479  unzip PrototipoMovilFinal.zip -d PrototipoMovilFinal
+ 1480  python3 pdfMerge.py PrototipoMovilFinal/ -o PrototipoMovilFinal/MobileDefinitive.pdf
+ 1481  python3 pdfMerge.py PrototipoMovilFinal/  PrototipoMovilFinal/MobileDefinitive.pdf
+ 1482  cp PrototipoMovilFinal/MobileDefinitive.pdf /mnt/c/Users/45111522/Downloads/.
+ 1483  sync
+ 1484  cd /mnt/c/Users/45111522/Downloads/
+ 1485  md5sum WSChangeMin_lfr-ear-1.0-SNAPSHOT.ear 
+ 1486  md5sum WSChangeMin_lfr-ear-1.0-SNAPSHOT\ \(1\).ear 
+ 1487  cd /mnt/c/sft_dev/OSB/BusinessIntelligence_OperOper/
+ 1488  ls
+ 1489  find . -type f -exec grep -ln "RegisterActivationPackage"
+ 1490  find . -type f -exec grep -ln "RegisterActivationPackage" {} \+
+ 1491  find . -type f -exec grep -ln "ActivationPackage" {} \+
+ 1492  find . -type f -exec grep -ln "ActivationPackages" {} \+
+ 1493  cd --
+ 1494  ls
+ 1495  vim pdfTextExtraction.py 
+ 1496  vim pdfImageExtraction.py
+ 1497  cd UX_entrega3/
+ 1498  ls
+ 1499  cd ..
+ 1500  python3 pdfImageExtraction.py UX_entrega3/prototipoWebFinal.pdf UX_entrega3/
+ 1501  cd UX_entrega3/
+ 1502  ls
+ 1503  cp *.png /mnt/c/Users/45111522/OneDrive\ -\ GLOBAL\ HITSS/
+ 1504  ping motorpagos.claro.com.co
+ 1505  ping diagres.claro.com.co
+ 1506  cd --
+ 1507  ls
+ 1508  cd MISW4301-Desarrollo-Apps-en-la-Nube/
+ 1509  ls
+ 1510  ls -a
+ 1511  node
+ 1512  cd ..
+ 1513  ls
+ 1514  cd UX_entrega3/
+ 1515  ls
+ 1516  cd ..
+ 1517  git clone https://github.com/RonaldLugo/ux-design-eventalarm-web.git
+ 1518  ls
+ 1519  cd ux-design-eventalarm-web/
+ 1520  npx http-server
+ 1521  cd .
+ 1522  cd ..
+ 1523  ls
+ 1524  cd MISW4301-Desarrollo-Apps-en-la-Nube/
+ 1525  ls
+ 1526  git clone https://github.com/shiomar1108/MISW4301-Desarrollo-de-aplicaciones-nativas-en-la-nube.git
+ 1527  ls
+ 1528  cd MISW4301-Desarrollo-de-aplicaciones-nativas-en-la-nube/
+ 1529  ks
+ 1530  ls
+ 1531  git log
+ 1532  md5sum WSChangeMin-web_FulFillOper-DEV\ Release-36.ear 
+ 1533  md5sum wsChangeMin-web-ear-1,0-SNAPSHOT.ear 
+ 1534  ls
+ 1535  md5sum WSChangeMin-web_FulFillOper-DEV-Release-36.ear 
+ 1536  md5sum wsChangeMin-web-ear-1,0-SNAPSHOT.ear 
+ 1537  exit
+ 1538  cls
+ 1539  clear
+ 1540  ls
+ 1541  cd MISW4304-DevOps/
+ 1542  ls
+ 1543  git clone https://github.com/WeimarG/taller-beanstalk.git
+ 1544  ls taller-beanstalk/
+ 1545  code taller-beanstalk/
+ 1546  gzip taller-beanstalk/ -o /mnt/c/Users/45111522/OneDrive\ -\ Comunicacion\ Celular\ S.A.-\ Comcel\ S.A/Escritorio/10.Oct/19.10.2025/Tutorial1.zip
+ 1547  man gzip
+ 1548  zip -r /mnt/c/Users/45111522/OneDrive\ -\ Comunicacion\ Celular\ S.A.-\ Comcel\ S.A/Escritorio/10.Oct/19.10.2025/Tutorial1.zip taller-beanstalk/
+ 1549  pwd
+ 1550  ls
+ 1551  cd taller-beanstalk/
+ 1552  ls
+ 1553  history|grep venv
+ 1554  python -m venv --help
+ 1555  python3 -m venv --help
+ 1556  python3 -m venv venv
+ 1557  apt install python3-venv
+ 1558  sudo apt install python3-venv
+ 1559  python3 -m venv venv
+ 1560  source venv/bin/activate
+ 1561  pip install -r requirements.txt
+ 1562  python3 application.py 
+ 1563  ls
+ 1564  rm -rf __pycache__/ venv/
+ 1565  sync
+ 1566  exit
+ 1567  md5sum wsPcml-ear-1.0-SNAPSHOT.ear 
+ 1568  md5sum wsPcml-ear-1.0-SNAPSHOT\ \(1\).ear 
+ 1569  md5sum wsPcml-ear-1.0-SNAPSHOT.ear 
+ 1570  md5sum WSChangeMin_lfr-ear-1.0-SNAPSHOT.ear 
+ 1571  postman container ls
+ 1572  podman container ls
+ 1573  podman
+ 1574  vim /home/p0rc9pin7tr33/.config/containers/containers.conf 
+ 1575  rm /home/p0rc9pin7tr33/.config/containers/containers.conf 
+ 1576  exit
+ 1577  cd /mnt/c/Users/45111522/OneDrive\ -\ Comunicacion\ Celular\ S.A.-\ Comcel\ S.A/Escritorio/10.Oct/
+ 1578  ls
+ 1579  cd ..
+ 1580  ls
+ 1581  cd notepad-scratch/
+ 1582  ls
+ 1583  cd logs-2025-III/
+ 1584  history|grep grep
+ 1585  grep -lnr "SGNP"
+ 1586  grep -lnr "*SGNP*"
+ 1587  grep -lnr "Proyectos"
+ 1588  grep -lnr "Proy"
+ 1589  grep -lr "Proy"
+ 1590  grep -e "Proy"
+ 1591  grep -er "Proy"
+ 1592  grep -R "Proy"
+ 1593  grep -R "SGNP"
+ 1594  ls
+ 1595  cd /mnt/c/sft_dev/
+ 1596  cd java/
+ 1597  RSReChValSetFTTHParam_OperOper/
+ 1598  cd RSReChValSetFTTHParam_OperOper/
+ 1599  ls
+ 1600  cd RSReChValSetFTTHParam/
+ 1601  ls
+ 1602  vim .project 
+ 1603  rm .project 
+ 1604  cd RSReChValSetFTTHParam-ear/
+ 1605  ls
+ 1606  rm .project 
+ 1607  ls -a
+ 1608  vim .settings/
+ 1609  rm .settings/
+ 1610  tree .settings/
+ 1611  rm -rf .settings/
+ 1612  cd ..
+ 1613  cd RSReChValSetFTTHParam-ejb/
+ 1614  rm -rf .project .settings/
+ 1615  cd ..
+ 1616  cd RSReChValSetFTTHParam-web/
+ 1617  rm -rf .project .settings/
+ 1618  cd ..
+ 1619  ls
+ 1620  cd RSReChValSetFTTHParam/
+ 1621  ls -a
+ 1622  rm .project 
+ 1623  cd RSReChValSetFTTHParam-ear/
+ 1624  rm -rf .project .settings/
+ 1625  cd ../RSReChValSetFTTHParam-web/
+ 1626  rm -rf .project .settings/
+ 1627  cd ../RSReChValSetFTTHParam-ejb/
+ 1628  rm -rf .project .settings/
+ 1629  cd /mnt/c/Users/45111522/OneDrive\ -\ Comunicacion\ Celular\ S.A.-\ Comcel\ S.A/Escritorio/11.Nov/14.11.2025/
+ 1630  ls
+ 1631  md5sum WSCancelacionOTCarrusel-ear-1.0-SNAPSHOT.ear 
+ 1632  md5sum WSCancelacionOTCarrusel-ear-1.0-SNAPSHOT.ear WSCancelacionOTCarrusel-ear-1.0-SNAPSHOT-verWO.ear 
+ 1633  cd --
+ 1634  ls
+ 1635  cd MISW4304-DevOps/
+ 1636  ls
+ 1637  cd MISW4304-MIDSOMMAR/
+ 1638  git pull
+ 1639  git fetsch
+ 1640  git fetch
+ 1641  git branch -a
+ 1642  git checkout -t origin/feat/entrega-3
+ 1643  git log
+ 1644  cd ..
+ 1645  git clone https://github.com/WeimarG/taller_codedeploy_fargate.git
+ 1646  cd taller_codedeploy_fargate/
+ 1647  ls
+ 1648  history|grep aws
+ 1649  aws --help
+ 1650  docker
+ 1651  podman
+ 1652  sudo apt update
+ 1653  sudo apt upGRADE
+ 1654  cd ..
+ 1655  cd --
+ 1656  find . -type f -iname "*awscli*"
+ 1657  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ 1658  unzip awscliv2.zip 
+ 1659  cd aws/
+ 1660  ls
+ 1661  ./install 
+ 1662  sudo ./install 
+ 1663  aws --version
+ 1664  sudo apt upgrade -y
+ 1665  sudo apt update
+ 1666  sudo apt upgrade -y
+ 1667  aws ecr get-login-password --region us-east-1
+ 1668  ~/aws/
+ 1669  ls ~/aws/
+ 1670  ls ~/aws/dist/
+ 1671  sudo apt install podman -y
+ 1672  podman -version
+ 1673  podman --version
+ 1674  . /etc/os-release
+ 1675  echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /" | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
+ 1676  curl -L "https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/Release.key" | sudo apt-key add -
+ 1677  sudo apt update
+ 1678  sudo apt install podman -y
+ 1679  mkdir -p ~/.config/containers
+ 1680  nano ~/.config/containers/containers.conf
+ 1681  sudo podman network create podman
+ 1682  podman run --rm -it alpine sh
+ 1683  sudo ln -s /usr/bin/podman /usr/bin/docker
+ 1684  docker --version
+ 1685  docker run hello-world
+ 1686  podman system service --time=0 unix:///tmp/podman.sock &
+ 1687  export DOCKER_HOST=unix:///tmp/podman.sock
+ 1688  cd --
+ 1689  vim .bashrc 
+ 1690  aws configure
+ 1691  aws sts get-caller-identity
+ 1692  aws configure
+ 1693  aws sts get-caller-identity
+ 1694  aws configure
+ 1695  aws sts get-caller-identity
+ 1696  aws configure
+ 1697  aws sts get-caller-identity
+ 1698  aws configure
+ 1699  aws sts get-caller-identity
+ 1700  aws configure --profile ecr-user
+ 1701  aws sts get-caller-identity
+ 1702  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777422376006.dkr.ecr.us-east-1.amazonaws.com
+ 1703  ls
+ 1704  cd MISW4304-DevOps/
+ 1705  ls
+ 1706  cd taller
+ 1707  cd taller_codedeploy_fargate/
+ 1708  docker build -t python_app .
+ 1709  code .
+ 1710  docker images ls -a
+ 1711  docker images ls 
+ 1712  docker images ls -A
+ 1713  docker image ls -a
+ 1714  docker image rm aaade23f8800
+ 1715  docker image prune
+ 1716  docker image ls -a
+ 1717  docker build -t python_app .
+ 1718  docker tag python_app:latest 777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest
+ 1719  docker push 777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest
+ 1720  ping google.com
+ 1721  history|grep grep
+ 1722  ping google.com
+ 1723  cd /mnt/c/Users/45111522/Downloads/
+ 1724  md5sum wsPerfilamientoCliente-ear-1.0\ \(2\).ear 
+ 1725  ping google.com
+ 1726  ls
+ 1727  cd win_sft_dev/python/
+ 1728  ls
+ 1729  cd host-loader/
+ 1730  ls
+ 1731  vim HostRoboto.py 
+ 1732  python3 HostRoboto.py --help
+ 1733  python3 HostRoboto.py --headless
+ 1734  history
+ 1735  cd ..
+ 1736  cd --
+ 1737  l
+ 1738  cd win_desktop/notepad-scratch/
+ 1739  ls
+ 1740  grep -rnl "Y.*\%"
+ 1741  grep -rn "Y.*\%"
+ 1742  curl http://192.168.5.25:10021/web/services/TCINSRV0Service/TCINSRV0?wsdl
+ 1743  curl http://192.168.5.25:10021/web/services/TCINSRV0Service/TCINSRV0?wsdl -v
+ 1744  history|grep nmap
+ 1745  nmap -p 10000-10050 T4 -A -v 192.168.5.25
+ 1746  nmap -A -v 192.168.5.25
+ 1747  nmap -p 10021 -A -v -sV 192.168.5.25
+ 1748  nmap -A -v 100.123.32.71
+ 1749  nmap -p 8000-9000 T4 -A -v -sV 100.123.32.71
+ 1750  python -m http.server 9999
+ 1751  python3 -m http.server 9999
+ 1752  cd win_desktop/11.Nov/26.11.2025/
+ 1753  ls
+ 1754  file WSChangeSIM
+ 1755  file WSChangeSIM-3219035200 
+ 1756  history
+ 1757  history|grep grep
+ 1758  cd ..
+ 1759  cd --
+ 1760  cd win_desktop/notepad-scratch/
+ 1761  grep -rn "Y.*\%"
+ 1762  cd --
+ 1763  cd win_sft_dev/java/WSOrderManager_OperInsp/
+ 1764  grep -rn "400"
+ 1765  cd --
+ 1766  cd win_sft_dev/python/host-loader/
+ 1767  ls
+ 1768  vim HostRoboto.py 
+ 1769  cd ..
+ 1770  ls
+ 1771  cd --
+ 1772  ls
+ 1773  python3 pdfTextExtraction.py 
+ 1774  vim pdfTextExtraction.py 
+ 1775  vim pdf2text.py
+ 1776  ls
+ 1777  cp win_desktop/11.Nov/MISW4304/Tutorial\ 5\ –\ AWS\ Code\ Deploy\ con\ AWS\ Fargate_v2.pdf tut5-fargate.pdf
+ 1778  python3 pdf2text.py tut5-fargate.pdf 
+ 1779  ls
+ 1780  ls -lsh
+ 1781  vim output.txt 
+ 1782  cp output.txt win_desktop/11.Nov/MISW4304/tut5-fargate.txt
+ 1783  sync
+ 1784  ls
+ 1785  cd MISW4304-DevOps/
+ 1786  ls
+ 1787  cd taller_codedeploy_fargate/
+ 1788  ls
+ 1789  code .
+ 1790  # from repo root
+ 1791  python3 app.py
+ 1792  # in another terminal:
+ 1793  curl -i http://localhost:5000/health
+ 1794  # expect HTTP/1.1 200 OK
+ 1795  ls
+ 1796  cd src/
+ 1797  ls
+ 1798  python3 application.py &
+ 1799  sudo apt-get update
+ 1800  sudo apt-get install python3-flask
+ 1801  python3 application.py &
+ 1802  cd ..
+ 1803  history |grep podman
+ 1804  history |grep docker
+ 1805  docker build -t python_app .
+ 1806  history |grep docker
+ 1807  docker tag python_app:latest 777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest
+ 1808  docker push 777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest
+ 1809  history
+ 1810  history > history-30.11.2025.txt
