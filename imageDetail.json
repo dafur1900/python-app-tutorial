@@ -1,9 +1,6 @@
-{
-  "imageDetails": [
-    {
-      "name": "python-app",
-      "imageUri": "777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest"
-    }
-  ]
-}
-
+[
+  {
+    "name": "python-app",
+    "imageUri": "777422376006.dkr.ecr.us-east-1.amazonaws.com/python_app:latest"
+  }
+]
